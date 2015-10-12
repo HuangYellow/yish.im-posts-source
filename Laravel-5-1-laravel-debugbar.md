@@ -7,22 +7,22 @@ categories: Laravel
 
 [github](https://github.com/barryvdh/laravel-debugbar)
 
-##安裝
-```
+## 安裝
+``` bash
 $ sudo composer require barryvdh/laravel-debugbar
 ```
 
-##設定
+## 設定
 config/app.php
 
-```
+``` php
 'Barryvdh\Debugbar\ServiceProvider',
 
 'Debugbar' => 'Barryvdh\Debugbar\Facade',
 ```
 
 如果想要更彈性設置，可以將debugbar的config publish到config內
-```
+``` bash
 $ sudo php artisan vendor:publish
 ```
 

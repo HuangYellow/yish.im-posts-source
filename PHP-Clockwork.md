@@ -19,13 +19,13 @@ categories: PHP
 *如果是開發web app則使用以下包
 [embeddable web app version of Clockwork](http://github.com/itsgoingd/clockwork-web)
 
-##安裝
+## 安裝
 composer.json
 ``` bash
 "itsgoingd/clockwork": "~1.6"
 ```
 
-##設定
+## 設定
 以下都是以laravel環境進行，雖然說laravel其實有個介面更好的[laravel-debugbar](https://github.com/barryvdh/laravel-debugbar)，但還是需要預防萬一...。
 
 這邊建議自己獨立出app.php，利用`append_config`進行加入開發工具。
@@ -47,7 +47,7 @@ php artisan config:publish itsgoingd/clockwork --path vendor/itsgoingd/clockwork
 Ok,可以運作了，很簡單吧。
 
 
-##範例
+## 範例
 ``` php
     Clockwork::startEvent('finduser', 'find user email.'); //事件開始
     $user = User::find(1);

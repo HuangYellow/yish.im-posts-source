@@ -13,7 +13,7 @@ categories: Laravel
 
 以下以redis為例，memcached也是一樣的做法。
 
-##設定
+## 設定
 cache
 `app/config/cache.php`
 ``` php
@@ -37,7 +37,7 @@ session
 'driver' => 'redis',
 ```
 
-##補充
+## 補充
 當然在laravel當中也提供了一些設定，如果是希望用專屬的cache or session做一台主機，主要資料存在另一台，下面也提供了幾個設定
 分別在
 

@@ -12,7 +12,7 @@ categories: Laravel
 
 **他底層還是去呼叫GD函式庫，先確認是否有安裝。**
 
-##安裝
+## 安裝
 `composer.json`
 ``` json
 "intervention/image": "2.1.3"
@@ -29,7 +29,7 @@ composer update
 'Image' => 'Intervention\Image\Facades\Image', //這可以讓你用Image::的方式呼叫
 ```
 
-##Example
+## Example
 >官方提供了相當多的圖片處理function，這邊我舉一個resize，依此類推。
 ``` php
 //$file就是Input::file('image')

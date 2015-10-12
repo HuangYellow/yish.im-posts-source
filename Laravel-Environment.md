@@ -20,7 +20,7 @@ $env = $app->detectEnvironment(array(
 
 >注意：請勿使用「testing」當作環境名稱，它是專門為單元測試保留的。
 
-##建立環境敏感檔案
+## 建立環境敏感檔案
 在專案目錄底下建立`.env.{環境名稱}.php，一般而言與 composer.json 檔案同目錄。
 
 example:
@@ -52,7 +52,7 @@ return array(
         ),
 ```
 
-##補充說明
+## 補充說明
 1. 得到目前環境名稱：
 ``` bash
     echo App::environment();

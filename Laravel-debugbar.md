@@ -11,10 +11,10 @@ categories: Laravel
 
 >laravel 4 / 5 support!
 
-##安裝
+## 安裝
     composer require barryvdh/laravel-debugbar
 
-##設定
+## 設定
 `app.php`
 ``` php
 'Barryvdh\Debugbar\ServiceProvider',

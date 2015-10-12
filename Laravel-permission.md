@@ -11,7 +11,7 @@ categories: Laravel
 >Laravel 4
 
 
-##安裝
+## 安裝
 `composer.json`
 ``` bash
 "zizaco/entrust": "1.3.0"
@@ -44,7 +44,7 @@ php artisan entrust:migration
 php artisan migrate
 ```
 
-##建立對應model
+## 建立對應model
 `app/models/Role.php`
 
 ``` php

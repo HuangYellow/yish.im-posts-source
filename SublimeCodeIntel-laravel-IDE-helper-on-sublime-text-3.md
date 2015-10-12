@@ -5,20 +5,20 @@ categories: [Laravel,Sublime]
 ---
 >使用laravel IDE helper能快速在sublime coding當中知道內建laravel method，相當於內部語法提示。
 
-##Required
+## Required
 [Package_control](http://yish.im/2015/03/22/Sublime-text-3-on-Ubuntu/#Package_control)
 
-##SublimeCodeIntel
+## SublimeCodeIntel
 
 [Github](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
 
-```
+``` bash
 Package control > Install package > SublimeCodeIntel
 ```
 
 [關於快捷鍵](https://github.com/SublimeCodeIntel/SublimeCodeIntel#using)
 
-###引發的錯誤解決方法
+### 引發的錯誤解決方法
 
 當我安裝好上述之後，我發現我還是無法使用(ubuntu)，看了一下console是說
 
@@ -64,7 +64,7 @@ $ sudo apt-get install python3-dev
 $ sudo apt-get install libevent-dev
 ```
 
-##laravel IDE helper
+## laravel IDE helper
 
 [Github](https://github.com/barryvdh/laravel-ide-helper)
 
@@ -87,7 +87,7 @@ $ php artisan ide-helper:generate
 
 That's it.
 
-##Ctags & SublimeCodeIntel 差異
+## Ctags & SublimeCodeIntel 差異
 [ref](http://cloudbbs.org/forum.php?mod=viewthread&tid=3620)
 
 *安装sublimecodeintel后， 按alt+鼠标左键也能和ctags一样跳转到函数声明的地方。 但是如果有两个文件声明了同样名称的函数， sublimecodeintel只会跳转到第一个找到的函数， 而ctags会让你选择要跳转到哪个文件。所以我们一般还是用ctags的跳转功能。*

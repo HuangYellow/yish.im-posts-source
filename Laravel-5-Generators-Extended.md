@@ -7,13 +7,13 @@ categories: Laravel
 
 [github](https://github.com/laracasts/Laravel-5-Generators-Extended)
 
-```
+``` bash
 $ composer require laracasts/generators
 ```
 
 L5 includes a bunch of generators out of the box, so this package only needs to add a few things, like:
 
-```
+``` bash
 * make:migration:schema
 * make:migration:pivot
 * make:seed

@@ -9,7 +9,7 @@ categories: Sublime
 
 
 
-##Installation
+## Installation
 
 * [安裝Package Control(必要)](http://yish.im/2015/03/22/Sublime-text-3-on-Ubuntu/)
 
@@ -19,12 +19,12 @@ categories: Sublime
 
 當然你也可以透過[Github](https://github.com/YabataDesign/afterglow-theme)來安裝。
 
-##Settings
+## Settings
 接下來我們要開始設定，告訴sublime我們要使用這個theme。
 
-###Preferences->Settings->User
+### Preferences->Settings->User
 
-```
+``` json
 {
     "theme": "Afterglow.sublime-theme",
     "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
@@ -33,16 +33,16 @@ categories: Sublime
 
 that's it.
 
-##額外選項
+## 額外選項
 >在官方的github當中提供了相當多的選擇供大家使用，像是icons, tab padding, 甚至是color scheme都可以選擇，可以到官方的[Github](https://github.com/YabataDesign/afterglow-theme)選擇自己喜歡的樣式。
 
-##個人化設定
+## 個人化設定
 以下是我開發時使用的設定，有興趣的同學可以參考：
 
-###Preferences->Settings->User
+### Preferences->Settings->User
 
-####All
-```
+#### All
+``` json
 {
     "caret_style": "phase",
     "color_scheme": "Packages/Theme - Afterglow/Afterglow-monokai.tmTheme",
@@ -68,17 +68,17 @@ that's it.
 在`Browse packages..`資料夾底下建立：（沒有folder請自行建立）
 
 * ubuntu
-```
+``` bash
     Theme - Afterglow/schemes/Afterglow.sublime-theme
 ```
 
 * Mac
-```
+``` bash
     /Users/username/Library/Application Support/Sublime Text 3/Packages/Theme - Afterglow/schemes/Afterglow.sublime-theme
 ```
 
 輸入以下設定：(讓文件編輯時連同檔案名稱一起高亮)
-```
+``` json
 [
     {
         "class": "tab_label",
@@ -111,7 +111,7 @@ that's it.
 ]
 ```
 
-###Source Code Pro 字體安裝
+### Source Code Pro 字體安裝
 >這個字體是由Adobe公司專門出給程式開發者專用的字體，用了之後感覺很不錯。
 
 [Github](https://github.com/adobe-fonts/source-code-pro)
@@ -120,12 +120,12 @@ that's it.
 
 將TTF打開，複製裡面的所有檔案，放到指定的路徑下安裝字體。
 
-####Mac
-```
+#### Mac
+``` bash
     /Library/Fonts
 ```
-####ubuntu
-```
+#### ubuntu
+``` bash
     當前使用者 home/.fonts
 ```
 ubuntu用戶如果沒有.fonts資料夾請自己用mkdir的方式建立，並修改權限。

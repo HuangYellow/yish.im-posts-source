@@ -10,14 +10,14 @@ categories: Laravel
 
 [Github](https://github.com/laracasts/Laravel-5-Generators-Extended) / Laravel 5
 
-##安裝
+## 安裝
 `composer.json`
 ``` json
     "require-dev": {
         "way/generators": "~2.0"
     }
 ```
-##設定
+## 設定
 ``` bash
     composer update --dev
 ```
@@ -27,7 +27,7 @@ categories: Laravel
 'Way\Generators\GeneratorsServiceProvider'
 ```
 
-##指令參照
+## 指令參照
 * generate:model
 * generate:view
 * generate:controller

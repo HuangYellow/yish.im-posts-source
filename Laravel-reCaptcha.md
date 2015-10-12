@@ -24,7 +24,7 @@ Laravel 5 則使用 2.0.x
 composer update
 ```
 
-##用法
+## 用法
 `composer update`之後，接著就可以很簡單的使用這個驗證了。
 首先要到[google recaptcha](https://www.google.com/recaptcha/intro/index.html)弄一個key，並且綁定域名，這邊可以綁定一個local的域名，並不僅限於一定要online的域名，如我使用homestead時我設定了homestead.app作為我的域名，這也是可以的。
 

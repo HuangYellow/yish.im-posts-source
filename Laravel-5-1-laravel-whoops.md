@@ -7,12 +7,12 @@ categories: Laravel
 
 [github](https://github.com/guidovanbiemen/laravel-whoops)
 
-##安裝
+## 安裝
 ``` bash
 $ sudo composer require guidovanbiemen/laravel-whoops
 ```
 
-##設定
+## 設定
 
 config/app.php
 

@@ -12,7 +12,7 @@ categories: Laravel
 
 >Laravel 4
 
-##安裝
+## 安裝
 `composer.json`
 ``` php
 "cartalyst/tags": "~1.0"
@@ -22,7 +22,7 @@ categories: Laravel
 composer update
 ```
 
-##配置
+## 配置
 tag的功能是需要透過table做紀錄的，也因此需要做一次migration.
 ``` bash
 php artisan migrate --package=cartalyst/tags
@@ -30,7 +30,7 @@ php artisan migrate --package=cartalyst/tags
 
 >建立將package裡面的migration複製到database/migrations，這樣日後直接下`php artisan migrate`即可。
 
-##Model配置
+## Model配置
 接下來，必須使用trait來告知是哪個model要使用tags
 ``` php
 use Cartalyst\Tags\TaggableTrait;
@@ -46,9 +46,9 @@ class Product extends Eloquent implements TaggableInterface
 
 that's it, 這樣就算配置好了。
 
-##使用
+## 使用
 
-###新增tags
+### 新增tags
 ``` php
 // 取得原有文章
 $post = Post::find(1);
@@ -62,7 +62,7 @@ $post->tag('foo, bar, baz');
 $post->tag([ 'foo', 'bar', 'baz' ]);
 ```
 
-###刪除tags
+### 刪除tags
 ``` php
 // 取得原有文章
 $post = Post::find(1);
@@ -77,7 +77,7 @@ $post->untag([ 'bar', 'baz' ]);
 $post->untag();
 ```
 
-###更新（設定）tags
+### 更新（設定）tags
 ``` php
 // 取得原有文章
 $post = Post::find(1);
@@ -92,7 +92,7 @@ $post->setTags([ 'foo', 'bar', 'baz' ]);
 $post->setTags([ 'foo', 'bar', 'baz' ], 'slug');
 ```
 
-###搜尋標籤
+### 搜尋標籤
 >當然，事情沒這麼順利，到目前為止都沒有什麼問題，但仔細一看你會發現，當你在搜尋標籤時，英數都可以找到相對應的資料，但中文就是沒辦法，原因就在於tags在選取時是利用`slug`這個欄位作為get value，但是你會發現中文的根本無法寫入slug這個欄位！原因就是他的function是去呼叫底層的`function ascii`這個編碼格式相信大家都不陌生，沒錯，他的記憶位元並不足夠儲存中文，所以標籤如果打中文，理所當然的就存不進去了。
 
 也因此我們必須利用`name`這個欄位作為我們的url slug，那麼該怎麼做呢？
@@ -101,23 +101,23 @@ $post = Post::whereTag('foo', 'name');
 ```
 that's it, 就是這麼簡單。
 
-###取得有foo, bar其中之一標籤的文章
+### 取得有foo, bar其中之一標籤的文章
 ``` php
 $post = Post::withTag('foo, bar')->get();
 //A:foo B:bar C:foo,bar -> ABC都會進來
 ```
-###取得單篇文章所有tags
+### 取得單篇文章所有tags
 ``` php
 $post = Post::find(1);
 $post->tags;
 ```
 
-###取得所有tags
+### 取得所有tags
 ``` php
 $tags = Post::allTags();
 ```
 
-###選用
+### 選用
 
 取得定界符
 ``` php
@@ -132,12 +132,12 @@ Post::setTagsDelimiter(';');
 如果覺得slug不用真的浪費的人（或者是覺得上面用name的方式不好的），也可以自己進行改寫
 >The Tags package needs a way to create a sluggified tagged name, to achieve this, by default we use the Illuminate\Support\Str::slug method but if required you can easily swap the Slug Generator method to one that fits your own needs.
 
-####取得slug
+#### 取得slug
 ``` php
 $generator = Post::getSlugGenerator();
 ```
 
-####自定義slug function
+#### 自定義slug function
 ``` php
 // Through a function string
 Product::setSlugGenerator('slugify_string');

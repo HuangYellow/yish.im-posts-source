@@ -12,7 +12,7 @@ PHP目前有PSR的規範，也有一套不錯的工具可以幫助自動化規�
 
 [github](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 
-##安裝
+## 安裝
 
 確保`/.composer/vendor/bin`目錄在你的`$PATH`中
 ``` bash
@@ -25,7 +25,7 @@ export PATH=~/.composer/vendor/bin:$PATH
 composer global require fabpot/php-cs-fixer
 ```
 
-##使用
+## 使用
 /path/to/dir 專案目錄
 當然，也可以指定檔案
 /path/to/file 檔案

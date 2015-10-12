@@ -12,13 +12,13 @@ PHP目前有PSR的規範，也有一套不錯的工具可以幫助自動化規�
 
 [laracasts](https://laracasts.com/series/whats-new-in-laravel-5-1/episodes/1)
 
-##Installation
+## Installation
 
 >必要安裝`curl`
 
 [PHP-cs-fixer Github](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 
-##phar
+## phar
 有curl
 ``` bash
     curl http://get.sensiolabs.org/php-cs-fixer.phar -o php-cs-fixer
@@ -39,7 +39,7 @@ PHP目前有PSR的規範，也有一套不錯的工具可以幫助自動化規�
 
 重新啟動terminal
 
-##Sublime settings
+## Sublime settings
 * Tools -> Build System -> New Build System
 * 建立PHP.sublime-build
 指定shell_cmd
@@ -50,7 +50,7 @@ PHP目前有PSR的規範，也有一套不錯的工具可以幫助自動化規�
 ```
 * Done
 
-##操作
+## 操作
 >當寫好一段程式時，按下預設的快捷鍵`ctrl` + `b`，就會自動幫你把程式修正成psr-2的格式了。
 
 或者你可以用點選的方式Tools->Build

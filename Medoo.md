@@ -7,7 +7,7 @@ categories: PHP
 
 [官方網站](http://medoo.in/)
 
-##特色
+## 特色
 * 非常的轻量 只有 13KB，只需include即可。
 * 简单 非常的容易学习，快速上手。
 * 强大 支持各种常见的SQL查询。
@@ -25,7 +25,7 @@ Medoo有提供類似pdo的`query()`，但這是進行二次封裝後的query，�
 
 >Quote() places quotes around the input string and escapes special characters within the input string.
 
-##範例
+## 範例
 ``` php
 $db = new Medoo();
 $user_id = $db->quote($user_id);

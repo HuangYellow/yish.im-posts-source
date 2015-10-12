@@ -8,22 +8,22 @@ categories: PHP
 [official](http://parsedown.org/)
 [Github](https://github.com/erusev/parsedown.git)
 
-##安裝
+## 安裝
 `composer.json`
 ``` json
 "erusev/parsedown": "1.5.1"
 ```
 
-##使用
+## 使用
 
-###寫入
+### 寫入
 ``` php
 $parsedown = new Parsedown();
 
 $parsedown->setMarkupEscaped(true)->text($data['description']);
 //setMarkupEscaped是跳脫字元，他會將code的一些字元轉換成html
 ```
-###讀取
+### 讀取
 ``` php
 $parsedown = new Parsedown();
 

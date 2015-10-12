@@ -6,7 +6,7 @@ categories: Laravel
 ---
 >這篇其實是先前觀念不清楚而導致認知錯誤，筆記一下。
 
-##引發的錯誤
+## 引發的錯誤
 在安裝homestead時我以為他裡面很智能的幫我裝了laravel也就是這行指令
 ``` bash
 composer global require "laravel/installer=~1.1"
@@ -21,7 +21,7 @@ laravel new project_name
 ``` bash
 laravel: command not found
 ```
-##解決
+## 解決
 看了一下之後發現原來homestead雖然把路徑寫入了，但預設是沒有安裝 `laravel/installer`的
 也就是說一樣要到homestead裡面
 ``` bash
@@ -30,7 +30,7 @@ composer global require "laravel/installer=~1.1"
 
 終於可以高速建專案了....
 
-##Extra
+## Extra
 剛剛發生一個很特別的狀況
 ``` bash
 laravel new project_name

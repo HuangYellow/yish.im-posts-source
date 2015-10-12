@@ -5,7 +5,7 @@ categories: Laravel
 ---
 >最近開始在碰laravel 5.1，本篇是安裝的過程記錄，相信可以幫助剛入門的新人與剛從4.2升級過來的朋友。
 
-##環境建立
+## 環境建立
 
 **Required = homestead 2.0**
 
@@ -35,7 +35,7 @@ Application ready! Build something amazing.
 
 That's it.
 
-##錯誤解決方案
+## 錯誤解決方案
 
 引發原因是沒有自動建立.env檔，可以透過手動進行新增。
 
@@ -53,14 +53,14 @@ That's it.
 $ homestead edit
 ```
 
-##加入新站台
+## 加入新站台
 ``` bash
 sites:
 - map: laravel5.app
 to: /home/vagrant/Code/laravel5/public
 ```
 
-###關閉homestead
+### 關閉homestead
 ``` bash
 $ homestead halt
 ```
@@ -74,10 +74,10 @@ $ homestead up --provision
 如果出現以下畫面，恭喜你完成任務！
 ![laravel5.1](http://i.imgur.com/U69PqFC.png)
 
-##後續補充 2015.7.23
+## 後續補充 2015.7.23
 >上述的解決方案是以手動的方式進行，artisan提供了一個更便捷的指令，可以自動產生一組新的key並且自動寫入到.env當中。
 
 產生key並且放入env檔案
-```
+``` bash
 $ php artisan key:generate
 ```

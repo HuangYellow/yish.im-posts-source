@@ -9,7 +9,7 @@ categories: Laravel
 [問題說明網址](http://stackoverflow.com/questions/22575261/vagrant-stuck-connection-timeout-retrying
 Required)
 
-##前置
+## 前置
 `安裝virtualbox`
 ``` bash
 sudo apt-get install virtualbox
@@ -55,7 +55,7 @@ sudo mv composer.phar /usr/local/bin/composer
 ```
 
 
-##安裝
+## 安裝
 ``` bash
 composer global require "laravel/homestead=~2.0"
 ```
@@ -67,7 +67,7 @@ sudo nano .bashrc
 export PATH=~/.composer/vendor/bin:$PATH
 ```
 
-###非常重要：重新啟動terminal
+### 非常重要：重新啟動terminal
 
 `初始化`
 ``` bash
@@ -83,7 +83,7 @@ ssh-keygen -t rsa -C "your@email.com"
 *注意：原先`Homestead`是直接放在`home`底下，現在則是`.homestead` 所以`Homestead.yaml`也放在裡面了
 
 
-##建立mapping folder:Code資料夾
+## 建立mapping folder:Code資料夾
 folders:
 ``` bash
  -map:~/Code
@@ -110,7 +110,7 @@ sudo nano hosts
 ``` bash
 homestead up
 ```
-##補充
+## 補充
 `如有出現env home的問題`
 ``` bash
 cd etc/php5/cli/
