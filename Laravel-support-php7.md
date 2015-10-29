@@ -1,5 +1,5 @@
 title: "Homestead 現在支援PHP 7了"
-date: 2015-09-29 14:22:33
+date: 2015-10-29 14:22:33
 tags: [Laravel]
 categories: [Laravel]
 ---
