@@ -17,7 +17,7 @@ git clone -b php-7 https://github.com/laravel/homestead.git Homestead
 ```
 
 接下來將直接將 box 加入到已存在的 `Homestead.yaml` 的上面：
-``` json
+``` php
 box: laravel/homestead-7
 ```
 
