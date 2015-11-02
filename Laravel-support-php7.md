@@ -4,8 +4,6 @@ tags: [Laravel-news]
 categories: [Laravel-news]
 ---
 
-譯者：Yish
-
 ![homestead](http://i.imgur.com/CxQCsIB.png)
 
 Laravel Homestead 本月迎來新的更新：支援PHP 7。
@@ -26,3 +24,5 @@ box: laravel/homestead-7
 如果你需要更多訊息可以前往[官方手冊](http://laravel.com/docs/5.1/homestead#upgrading-to-php-7)或者查看 Laracasts的[PHP 7](https://laravel-news.com/2015/08/videos-to-learn-about-php-7/) 影片系列教學。
 
 [原文地址](https://laravel-news.com/2015/10/homestead-now-with-php-7-support/)
+
+譯者：Yish
