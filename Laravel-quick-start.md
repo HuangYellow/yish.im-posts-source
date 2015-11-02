@@ -13,5 +13,3 @@ categories: [Laravel-news]
 附上教學內的範例 [Github repo](http://github.com/laravel/quickstart-basic)，你可以閱讀所有原始碼而且可以很簡單的把它 checkout 下來玩玩看。
 
 [原文地址](https://laravel-news.com/2015/10/laravel-quick-start-learn-to-build-a-task-list/)
-
-譯者：Yish
