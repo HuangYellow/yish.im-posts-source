@@ -75,3 +75,5 @@ Laravel 5.2 的開發工作正在如火如荼的進行中，而且截至目前�
 
 ## 還有更多...
 隨著 Laravel 5.2 發布時間越來越靠近，我確信一些新的特行將會逐一發佈，我將會繼續在下面更新這篇文章。確認你有訂閱 [newsletter](https://laravel-news.com/newsletter/) 方便更新時通知你。
+
+[原文地址](https://laravel-news.com/2015/11/laravel-5-2-a-look-at-whats-coming/)
