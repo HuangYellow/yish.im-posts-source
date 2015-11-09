@@ -3,7 +3,7 @@ date: 2015-11-09 10:56:52
 tags: [PHP,IDE,Ubuntu]
 categories: Ubuntu
 ---
-![phpstorm10](http://i.imgur.com/GqdCs6V.png)
+![phpstorm10](http://i.imgur.com/GqdCs6V.png?1)
 
 >隨著新的PHP7即將發佈，PHPStorm也迎來了版本更新，在MAC上基本上是不會遇到安裝問題（也許要更新java版本？），但如果是ubuntu則需要修改一些設定才能順利使用，這次的版本更新有明顯感覺到速度上的差異，並且支援新的PHP7 highlight，趕快更新吧！
 
