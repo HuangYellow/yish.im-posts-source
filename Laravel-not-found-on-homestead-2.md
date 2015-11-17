@@ -1,10 +1,11 @@
-layout: not
 title: "Laravel : command not found on Homestead 2.0"
 date: 2015-04-23 19:41:34
 tags: [Laravel,Homestead]
 categories: Laravel
 ---
->這篇其實是先前觀念不清楚而導致認知錯誤，筆記一下。
+這篇其實是先前觀念不清楚而導致認知錯誤，筆記一下。
+
+<!-- more -->
 
 ## 引發的錯誤
 在安裝homestead時我以為他裡面很智能的幫我裝了laravel也就是這行指令

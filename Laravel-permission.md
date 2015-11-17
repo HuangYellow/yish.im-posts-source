@@ -1,10 +1,12 @@
 title: "Laravel permission Zizaco/Entrust"
 date: 2015-03-22 17:07:07
-tags: [Laravel]
+tags: Laravel
 categories: Laravel
 ---
 
->Zizaco/Entrust是一套權限控制系統，跟sentry不同的是他是獨立的權限系統，這對於已有原本user系統的開發者相當有幫助。
+Zizaco/Entrust是一套權限控制系統，跟sentry不同的是他是獨立的權限系統，這對於已有原本user系統的開發者相當有幫助。
+
+<!-- more -->
 
 [Github](https://github.com/Zizaco/entrust)
 

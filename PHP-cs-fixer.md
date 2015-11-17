@@ -1,12 +1,13 @@
 title: "PHP-cs-fixer"
 date: 2015-03-22 16:27:39
-tags: [PHP]
+tags: PHP
 categories: PHP
 ---
 
-
->程式有既定的規範讓co-work和程式的可閱讀性大幅提升，也讓維護起來比較輕鬆。
+程式有既定的規範讓co-work和程式的可閱讀性大幅提升，也讓維護起來比較輕鬆。
 PHP目前有PSR的規範，也有一套不錯的工具可以幫助自動化規範 `PHP-CS-Fixer`
+
+<!-- more -->
 
 [參考網址](https://phphub.org/topics/547)
 

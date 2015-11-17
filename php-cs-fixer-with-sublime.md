@@ -4,9 +4,11 @@ tags: [PHP,Sublime]
 categories: Sublime
 ---
 
->程式有既定的規範讓co-work和程式的可閱讀性大幅提升，也讓維護起來比較輕鬆。
+程式有既定的規範讓co-work和程式的可閱讀性大幅提升，也讓維護起來比較輕鬆。
 PHP目前有PSR的規範，也有一套不錯的工具可以幫助自動化規範 PHP-CS-Fixer
 先前介紹的是利用composer進行安裝php-cs-fixer的做法，但有個問題就是我想要在sublime裡面直接進行psr規格化，剛好看到laracasts有說到這部分就實作出來。
+
+<!-- more -->
 
 [php-cs-fixer @ composer](http://yish.im/2015/03/22/PHP-cs-fixer/)
 

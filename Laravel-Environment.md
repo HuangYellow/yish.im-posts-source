@@ -1,10 +1,12 @@
 title: "Laravel Environment"
 date: 2015-03-22 16:58:50
-tags: [Laravel]
+tags: Laravel
 categories: Laravel
 ---
 
->在開發專案時會遇到一種狀況，就是要production時必須修改很多的地方與設定，而且還要考慮與設定權限來屏蔽掉敏感資訊，但laravel已經提供了相當方便的方式可以讓開發者快速建立各個不同環境的設定以快速部署程式。
+在開發專案時會遇到一種狀況，就是要production時必須修改很多的地方與設定，而且還要考慮與設定權限來屏蔽掉敏感資訊，但laravel已經提供了相當方便的方式可以讓開發者快速建立各個不同環境的設定以快速部署程式。
+
+<!-- more -->
 
 [官方說明](http://laravel.tw/docs/4.2/configuration)
 

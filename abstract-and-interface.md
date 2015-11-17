@@ -1,10 +1,11 @@
 title: "abstract and interface 抽象與介面"
 date: 2015-05-25 21:04:48
-tags: [PHP]
+tags: PHP
 categories: PHP
 ---
+前陣子去PHP也有DAY時有幸聽到Sean Liu大的講解OOP的基礎結構，覺得相當棒，所以也寫了一篇關於interface與abstract的demo，希望能幫助剛入門的同學快速進入結構化的PHP。
 
->前陣子去PHP也有DAY時有幸聽到Sean Liu大的講解OOP的基礎結構，覺得相當棒，所以也寫了一篇關於interface與abstract的demo，希望能幫助剛入門的同學快速進入結構化的PHP。
+<!-- more -->
 
 首先，我們必須搞清楚`interface`, `abstract`的關係：
 

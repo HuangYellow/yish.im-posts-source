@@ -1,10 +1,12 @@
 title: "Laravel Generators"
 date: 2015-03-22 16:52:06
-tags: [Laravel]
+tags: Laravel
 categories: Laravel
 ---
 
->Genertors是一套程式產生器，透過指令的狀態下快速產生對應文件，是由laracasts.com的Jeffery所開發的套件。
+Genertors是一套程式產生器，透過指令的狀態下快速產生對應文件，是由laracasts.com的Jeffery所開發的套件。
+
+<!-- more -->
 
 [Github](https://github.com/JeffreyWay/Laravel-4-Generators) / Laravel 4
 

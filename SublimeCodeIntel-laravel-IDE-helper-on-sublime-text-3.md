@@ -1,9 +1,11 @@
 title: "SublimeCodeIntel + laravel IDE helper on sublime text 3"
 date: 2015-07-16 17:50:52
 tags: [Laravel,Sublime,CodeIntel]
-categories: [Laravel,Sublime]
+categories: Sublime
 ---
->使用laravel IDE helper能快速在sublime coding當中知道內建laravel method，相當於內部語法提示。
+使用laravel IDE helper能快速在sublime coding當中知道內建laravel method，相當於內部語法提示。
+
+<!-- more -->
 
 ## Required
 [Package_control](http://yish.im/2015/03/22/Sublime-text-3-on-Ubuntu/#Package_control)

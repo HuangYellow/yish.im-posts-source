@@ -3,7 +3,9 @@ date: 2015-06-23 02:04:21
 tags: [Theme,Sublime]
 categories: Sublime
 ---
->日前在facebook跟laracasts上面看到很多人使用這個theme，感覺看起來很不錯，就順手安裝了一下，整體感覺很棒，也自己客製化了一些設定，以下是設定與步驟。
+日前在facebook跟laracasts上面看到很多人使用這個theme，感覺看起來很不錯，就順手安裝了一下，整體感覺很棒，也自己客製化了一些設定，以下是設定與步驟。
+
+<!-- more -->
 
 ![material theme](https://camo.githubusercontent.com/9d75018f2674b0cf1919e4636c9751b3d7fa41ab/687474703a2f2f657175696e75736f63696f2e6769746875622e696f2f6d6174657269616c2d7468656d652f6173736574732f6d6174657269616c7468656d652e706e67)
 

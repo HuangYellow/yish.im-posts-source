@@ -4,7 +4,9 @@ tags: [Sublime,Ubuntu]
 categories: Sublime
 ---
 
->剛剛嘗試將ubuntu的st2升級至st3，果然還是會遇到一些問題，但還好很快就解決了，以下是安裝的過程和紀錄。
+剛剛嘗試將ubuntu的st2升級至st3，果然還是會遇到一些問題，但還好很快就解決了，以下是安裝的過程和紀錄。
+
+<!-- more -->
 
 ## Package control
 

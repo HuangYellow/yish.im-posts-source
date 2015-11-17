@@ -1,11 +1,12 @@
 title: "Laravel debugbar"
 date: 2015-03-22 16:48:41
-tags: [Laravel]
+tags: Laravel
 categories: Laravel
 ---
 
->先前介紹[Clockwork](http://mombuyish.github.io/php/2015/03/13/Clockwork/)這套通用的PHP debug套件，接下來來介紹一下專屬for laravel的debugbar
+先前介紹[Clockwork](http://mombuyish.github.io/php/2015/03/13/Clockwork/)這套通用的PHP debug套件，接下來來介紹一下專屬for laravel的debugbar
 
+<!-- more -->
 
 [Github](https://github.com/barryvdh/laravel-debugbar)
 

@@ -4,7 +4,9 @@ tags: [Laravel,Artisan]
 categories: Laravel
 ---
 
->[官方說明](http://laravel.tw/docs/4.2/artisan)
+[官方說明](http://laravel.tw/docs/4.2/artisan)
+
+<!-- more -->
 
 ## 推薦套件
 * [Laravel Generator](https://github.com/JeffreyWay/Laravel-4-Generators)

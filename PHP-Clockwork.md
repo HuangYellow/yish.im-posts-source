@@ -4,7 +4,9 @@ tags: [Laravel,PHP]
 categories: PHP
 ---
 
->Javascript開發者可以利用chrome當中的開發工具列進行效能與除錯等功能，PHP有額外套件也可以做到這樣子的功能 - Clockwork！
+Javascript開發者可以利用chrome當中的開發工具列進行效能與除錯等功能，PHP有額外套件也可以做到這樣子的功能 - Clockwork！
+
+<!-- more -->
 
 [google chrome套件 - Clockwork](https://chrome.google.com/webstore/detail/clockwork/dmggabnehkmmfmdffgajcflpdjlnoemp?hl=en)
 

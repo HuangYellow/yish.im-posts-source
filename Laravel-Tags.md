@@ -1,10 +1,12 @@
 title: "Laravel Tags"
 date: 2015-03-25 10:40:04
-tags: [Laravel]
+tags: Laravel
 categories: Laravel
 ---
 
->前陣子因為需求要實作標籤功能，發現有cartalyst/tags這個package，這是一個能夠讓你快速生成標籤與原有內容做關聯的package，相當方便。
+前陣子因為需求要實作標籤功能，發現有cartalyst/tags這個package，這是一個能夠讓你快速生成標籤與原有內容做關聯的package，相當方便。
+
+<!-- more -->
 
 [official](https://cartalyst.com/manual/tags/1.0)
 

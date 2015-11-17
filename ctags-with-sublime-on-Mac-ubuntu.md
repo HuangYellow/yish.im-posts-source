@@ -4,7 +4,9 @@ tags: [Ctags,Sublime]
 categories: Sublime
 ---
 
->Ctags是一個相當好用的代碼追蹤工具，他會建立一個tag 索引檔讓開發人員能快速在class, method之間做切換與追蹤。
+Ctags是一個相當好用的代碼追蹤工具，他會建立一個tag 索引檔讓開發人員能快速在class, method之間做切換與追蹤。
+
+<!-- more -->
 
 [Github](https://github.com/SublimeText/CTags)
 

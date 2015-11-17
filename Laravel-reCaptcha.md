@@ -4,7 +4,10 @@ tags: [Laravel,reCaptcha]
 categories: Laravel
 ---
 ![reCaptcha](http://i.imgur.com/xa6mIaZ.gif)
->最近google提供了RECAPTCHA新版本，比原先的recaptcha好用太多了，雖說在測試階段一旦測試太多次他還是會要求輸入驗證碼，但第一次打開時他會顯示一個很複雜的驗證碼，刷新後就會是很簡單的英文字，用起來真的不錯，於是就想辦法用於新的laravel專案上。
+最近google提供了RECAPTCHA新版本，比原先的recaptcha好用太多了，雖說在測試階段一旦測試太多次他還是會要求輸入驗證碼，但第一次打開時他會顯示一個很複雜的驗證碼，刷新後就會是很簡單的英文字，用起來真的不錯，於是就想辦法用於新的laravel專案上。
+
+<!-- more -->
+
 原先是自己把recaptchalib.php放到自訂的libraries，再經由各項設定來到app/config/recaptcha當中，但後來發現有提供recaptcha for laravel4，而且還可以切換版本！不多說就直接加入了，以下是加入的步驟跟一個簡單的範例。
 
 [Github](https://github.com/greggilbert/recaptcha)

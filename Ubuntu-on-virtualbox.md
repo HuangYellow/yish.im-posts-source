@@ -1,8 +1,12 @@
 title: "Ubuntu 14.10 or later does not install in virtualbox"
 date: 2015-05-16 10:34:17
-tags: [Ubuntu]
+tags: Ubuntu
 categories: Ubuntu
 ---
+
+這篇是在 virtualbox 下安裝ubuntu 14.10 or later 遇到的問題。
+
+<!-- more -->
 
 ## 安裝的時候螢幕是花屏…
 

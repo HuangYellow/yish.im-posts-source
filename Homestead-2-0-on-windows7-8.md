@@ -3,7 +3,9 @@ date: 2015-07-28 23:56:06
 tags: [Laravel,Homestead,Windows]
 categories: Laravel
 ---
->一直以來我開發的環境都是在Ubuntu和Mac當中，最近看到laravel越來越多人投入，但光是環境就讓人打退堂鼓，因此自己試著在windows上裝homestead，以下是安裝過程當中的筆記。
+一直以來我開發的環境都是在Ubuntu和Mac當中，最近看到laravel越來越多人投入，但光是環境就讓人打退堂鼓，因此自己試著在windows上裝homestead，以下是安裝過程當中的筆記。
+
+<!-- more -->
 
 ## 前置作業
 1. 安裝VirtualBox(https://www.virtualbox.org/)

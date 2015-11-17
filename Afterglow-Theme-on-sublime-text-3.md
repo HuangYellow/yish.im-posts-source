@@ -3,7 +3,9 @@ date: 2015-07-24 19:50:25
 tags: [Theme,Sublime]
 categories: Sublime
 ---
->Afterglow theme是一款相當漂亮的theme，並且提供了很多彈性的設置讓使用者可以快速調整適合自己的工作環境。
+Afterglow theme是一款相當漂亮的theme，並且提供了很多彈性的設置讓使用者可以快速調整適合自己的工作環境。
+
+<!-- more -->
 
 ![afterglow](https://github.com/YabataDesign/afterglow-theme/raw/master/Screenshots/Afterglow-default.png)
 

@@ -4,7 +4,9 @@ tags: [Laravel,Ubuntu]
 categories: Laravel
 ---
 
->新版本的homestead在安裝上與之前差異其實沒有很大，但是我還是不爭氣的卡關，後來終於解決了，原則上比較會出現問題的地方是ubuntu官方提供的vagrant是舊版的，必須自己去官方下載安裝才能執行，然後在add box這段冗長的加入過程中有可能會因為網路不穩出現檔案損毀的問題，以及最後如果你是virtualbox內安裝ubuntu，然後ubuntu裡面又安裝homestead很抱歉的你會卡在rsa_key過不去，因為你沒有虛擬化技術VT-x/AMD-V。
+新版本的homestead在安裝上與之前差異其實沒有很大，但是我還是不爭氣的卡關，後來終於解決了，原則上比較會出現問題的地方是ubuntu官方提供的vagrant是舊版的，必須自己去官方下載安裝才能執行，然後在add box這段冗長的加入過程中有可能會因為網路不穩出現檔案損毀的問題，以及最後如果你是virtualbox內安裝ubuntu，然後ubuntu裡面又安裝homestead很抱歉的你會卡在rsa_key過不去，因為你沒有虛擬化技術VT-x/AMD-V。
+
+<!-- more -->
 
 [問題說明網址](http://stackoverflow.com/questions/22575261/vagrant-stuck-connection-timeout-retrying
 Required)

@@ -1,10 +1,12 @@
-title: Laravel Plugin on PHPStorm
+title: "Laravel Plugin on PHPStorm"
 date: 2015-11-09 12:03:23
-tags: [IDE,Laravel]
-categories: [Laravel,IDE]
+tags: Laravel
+categories: Laravel
 ---
 ![phpstorm10](http://i.imgur.com/GqdCs6V.png?1)
->這個套件可以幫助你快速對應到相對應的route, view, provider，非常強大。
+這個套件可以幫助你快速對應到相對應的route, view, provider，非常強大。
+
+<!-- more -->
 
 [jetbrains plugin](https://plugins.jetbrains.com/plugin/7532)
 [github](https://github.com/Haehnchen/idea-php-laravel-plugin)

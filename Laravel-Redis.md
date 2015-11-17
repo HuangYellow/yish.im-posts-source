@@ -4,10 +4,12 @@ tags: [Laravel,Redis]
 categories: Laravel
 ---
 
->在laravel配置中其實很多東西已經配置好了，需要做的就僅僅是改變一些設定。
+在laravel配置中其實很多東西已經配置好了，需要做的就僅僅是改變一些設定。
 以下是配置redis or memcached
 基本上這兩套是目前用於存cache & session最主流的做法
 原則就上就redis or memcached + mysql
+
+<!-- more -->
 
 >安裝redis or memcached這部分就跳過了，基本上是不會有問題產生。
 

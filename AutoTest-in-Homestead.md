@@ -1,8 +1,13 @@
 title: "在Homestead下運行即時通知測試 on Ubuntu / Mac"
 date: 2015-09-26 17:28:33
 tags: [PHP,Testing]
-categories: [PHP,Laravel]
+categories: Laravel
 ---
+
+這篇是延伸更進一步將即時通知測試帶入 homestead。
+
+<!-- more -->
+
 ## 在homestead下運行即時通知測試
 >先前的[自動化測試 in PHP with Gulp, Node](http://yish.im/2015/09/24/AutoTest-in-PHP/)是在本地端執行，接下來將會在homestead底下進行配置。
 
