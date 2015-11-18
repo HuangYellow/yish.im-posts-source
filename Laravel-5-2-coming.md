@@ -1,7 +1,7 @@
 title: "Laravel 5.2 — 前瞻"
 date: 2015-11-15 02:08:20
-tags: Laravel-news
-categories: Laravel-news
+tags: Laravel-News
+categories: Laravel-News
 ---
 
 ![laravel5.2](http://i.imgur.com/RxpYi6j.png)
