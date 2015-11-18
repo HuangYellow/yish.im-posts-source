@@ -1,4 +1,4 @@
-title: The laracasts snippet
+title: "The laracasts snippet"
 date: 2015-11-18 10:19:34
 tags: [Laracasts,Twitter]
 categories: Laracasts
