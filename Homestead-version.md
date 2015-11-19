@@ -23,6 +23,8 @@ categories: Laravel
     $ vagrant box add laravel/homestead --box-version 0.2.5
 ```
 
+>注意：不能用 `sudo` 安裝會把 owner 改成 root。
+
 等待安裝後，就會是指定版本的 homestead了。
 
 ## Extra
