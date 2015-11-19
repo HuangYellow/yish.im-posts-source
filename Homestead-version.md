@@ -1,6 +1,6 @@
 title: "選擇指定 Homestead 版本安裝"
 date: 2015-11-19 20:22:22
-tags: [Laravel,Homestead]
+tags: [laravel,homestead]
 categories: Laravel
 ---
 ![homestead-version](http://i.imgur.com/k08ez7M.png)

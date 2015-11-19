@@ -1,6 +1,6 @@
 title: Laravel Homestead 支持 MySQL 5.7 & Node 5.0
 date: 2015-11-17 23:21:09
-tags: Laravel-News
+tags: news
 categories: Laravel-News
 ---
 

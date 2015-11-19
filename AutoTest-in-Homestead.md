@@ -1,6 +1,6 @@
-title: "在Homestead下運行即時通知測試 on Ubuntu / Mac"
+title: "在 Homestead 下運行即時通知測試 on Ubuntu / Mac"
 date: 2015-09-26 17:28:33
-tags: [PHP,Testing]
+tags: [php,testing]
 categories: Laravel
 ---
 

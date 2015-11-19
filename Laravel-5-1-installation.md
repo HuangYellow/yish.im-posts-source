@@ -1,6 +1,6 @@
 title: "Laravel 5.1 installation"
 date: 2015-07-21 10:43:09
-tags: Laravel
+tags: laravel
 categories: Laravel
 ---
 最近開始在碰laravel 5.1，本篇是安裝的過程記錄，相信可以幫助剛入門的新人與剛從4.2升級過來的朋友。

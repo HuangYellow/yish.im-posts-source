@@ -1,6 +1,6 @@
 title: "Laravel Generators"
 date: 2015-03-22 16:52:06
-tags: Laravel
+tags: laravel
 categories: Laravel
 ---
 

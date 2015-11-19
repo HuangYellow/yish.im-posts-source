@@ -1,6 +1,6 @@
 title: Laravel Collections Unraveled
 date: 2015-11-18 10:53:22
-tags: Laravel-News
+tags: news
 categories: Laravel-News
 ---
 

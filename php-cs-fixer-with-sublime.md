@@ -1,6 +1,6 @@
 title: "php-cs-fixer with sublime text 3"
 date: 2015-06-12 00:15:07
-tags: [PHP,Sublime]
+tags: [php,sublime]
 categories: Sublime
 ---
 

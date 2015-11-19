@@ -1,6 +1,6 @@
 title: "Laravel Redis"
 date: 2015-03-22 16:25:09
-tags: [Laravel,Redis]
+tags: [laravel,redis]
 categories: Laravel
 ---
 

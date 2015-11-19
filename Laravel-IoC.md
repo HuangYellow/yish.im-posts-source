@@ -1,6 +1,6 @@
 title: "Laravel IoC 簡單實作"
 date: 2015-10-27 14:27:25
-tags: Laravel
+tags: laravel
 categories: Laravel
 ---
 這個方法可以讓跟model或者repo無關的額外功能透過binding的方式載入。

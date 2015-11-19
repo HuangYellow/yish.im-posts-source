@@ -1,6 +1,6 @@
 title: "Laravel 5.1 laravel-whoops"
 date: 2015-07-21 11:38:56
-tags: Laravel
+tags: laravel
 categories: Laravel
 ---
 laravel 5 之後移除了whoops套件，所幸的是可以透過大神寫好的package把他裝載回來。

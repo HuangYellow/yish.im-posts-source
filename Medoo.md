@@ -1,6 +1,6 @@
 title: "Medoo"
 date: 2015-04-20 01:53:14
-tags: [PDO,Medoo]
+tags: pdo
 categories: PHP
 ---
 前陣子很常使用這個 db framework，覺得很方便也很好用，這邊做一下使用的經驗和用法，如果再沒有framework的情況下要避免像是基本的SQL injection的問題用這個會方便很多。

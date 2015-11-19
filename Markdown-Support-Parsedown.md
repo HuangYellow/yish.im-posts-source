@@ -1,6 +1,6 @@
 title: "Markdown Support: Parsedown"
 date: 2015-03-25 12:01:12
-tags: [Laravel,Markdown]
+tags: [laravel,markdown]
 categories: PHP
 ---
 Markdown是目前世界上最流行的編輯器之一，當然市面上很多選擇，但還是想要自己製作的話必須要有轉換才有辦法使用markdown的語法，Parsedown就是用於轉換的package.

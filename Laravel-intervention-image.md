@@ -1,6 +1,6 @@
 title: "Laravel intervention image"
 date: 2015-03-25 12:18:28
-tags: Laravel
+tags: laravel
 categories: Laravel
 ---
 前陣子需要對上傳圖片進行resize的動作，偶然找到這個可以resize跟對圖片做處理的package，用起來也相當簡單實用 intervention/image.

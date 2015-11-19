@@ -1,6 +1,6 @@
 title: "PHP-cs-fixer"
 date: 2015-03-22 16:27:39
-tags: PHP
+tags: php
 categories: PHP
 ---
 

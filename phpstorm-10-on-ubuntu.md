@@ -1,6 +1,6 @@
 title: PHPStorm 10 on Ubuntu
 date: 2015-11-09 10:56:52
-tags: Ubuntu
+tags: ubuntu
 categories: Ubuntu
 ---
 ![phpstorm10](http://i.imgur.com/GqdCs6V.png?1)

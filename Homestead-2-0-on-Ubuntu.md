@@ -1,6 +1,6 @@
 title: "Homestead 2.0 on Ubuntu"
 date: 2015-03-22 17:03:18
-tags: [Laravel,Ubuntu,Homestead]
+tags: [laravel,ubuntu,homestead]
 categories: Laravel
 ---
 

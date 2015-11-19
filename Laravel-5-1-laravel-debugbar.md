@@ -1,6 +1,6 @@
 title: "Laravel 5.1 laravel-debugbar"
 date: 2015-07-21 11:44:27
-tags: Laravel
+tags: laravel
 categories: Laravel
 ---
 跟laravel 4 一樣的debugbar，相當方便實用！

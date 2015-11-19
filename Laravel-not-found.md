@@ -1,6 +1,6 @@
 title: "Laravel : command not found on Homestead 2.0"
 date: 2015-04-23 19:41:34
-tags: [Laravel,Homestead]
+tags: [laravel,homestead]
 categories: Laravel
 ---
 

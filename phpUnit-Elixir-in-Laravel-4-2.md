@@ -1,6 +1,6 @@
 title: "將PHPUnit與自動化測試導入Laravel 4.2"
 date: 2015-09-26 18:59:44
-tags: [PHP,Testing]
+tags: [php,testing]
 categories: Laravel
 ---
 在Laravel4.2的專案中雖然Taylor已經幫我寫好了phpUnit，但是沒有將其預設掛載進來，所以我們必須自己手動將它加入（Laravel 5之後已經成為預先掛載），並且配合先前的測試推播來達到自動化測試的效果。

@@ -1,6 +1,6 @@
 title: "Sublime text 3 on Ubuntu"
 date: 2015-03-22 17:01:10
-tags: [Sublime,Ubuntu]
+tags: [sublime,ubuntu]
 categories: Sublime
 ---
 

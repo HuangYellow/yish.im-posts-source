@@ -1,6 +1,6 @@
 title: "Laravel Tags"
 date: 2015-03-25 10:40:04
-tags: Laravel
+tags: laravel
 categories: Laravel
 ---
 

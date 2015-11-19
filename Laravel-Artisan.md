@@ -1,6 +1,6 @@
 title: "Laravel Artisan"
 date: 2015-03-22 16:56:21
-tags: [Laravel,Artisan]
+tags: laravel
 categories: Laravel
 ---
 

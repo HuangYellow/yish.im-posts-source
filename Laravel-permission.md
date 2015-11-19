@@ -1,6 +1,6 @@
 title: "Laravel permission Zizaco/Entrust"
 date: 2015-03-22 17:07:07
-tags: Laravel
+tags: laravel
 categories: Laravel
 ---
 

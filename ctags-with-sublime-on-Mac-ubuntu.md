@@ -1,6 +1,6 @@
 title: "Ctags with Sublime text 3 On Mac/ubuntu"
 date: 2015-06-10 22:34:58
-tags: [Ctags,Sublime]
+tags: [ctags,sublime]
 categories: Sublime
 ---
 

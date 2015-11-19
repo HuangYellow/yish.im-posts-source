@@ -1,6 +1,6 @@
 title: "PHP-Clockwork"
 date: 2015-03-22 14:28:59
-tags: [Laravel,PHP]
+tags: [laravel,php]
 categories: PHP
 ---
 

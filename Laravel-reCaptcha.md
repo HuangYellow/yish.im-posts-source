@@ -1,6 +1,6 @@
 title: "Laravel reCaptcha"
 date: 2015-03-22 17:10:13
-tags: [Laravel,reCaptcha]
+tags: [laravel,recaptcha]
 categories: Laravel
 ---
 ![reCaptcha](http://i.imgur.com/xa6mIaZ.gif)

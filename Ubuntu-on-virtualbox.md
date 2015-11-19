@@ -1,6 +1,6 @@
 title: "Ubuntu 14.10 or later does not install in virtualbox"
 date: 2015-05-16 10:34:17
-tags: Ubuntu
+tags: ubuntu
 categories: Ubuntu
 ---
 

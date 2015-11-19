@@ -1,6 +1,6 @@
 title: "Laravel Plugin on PHPStorm"
 date: 2015-11-09 12:03:23
-tags: Laravel
+tags: laravel
 categories: Laravel
 ---
 ![phpstorm10](http://i.imgur.com/GqdCs6V.png?1)
