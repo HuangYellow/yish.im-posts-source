@@ -3,6 +3,7 @@ date: 2015-04-23 19:41:34
 tags: [Laravel,Homestead]
 categories: Laravel
 ---
+
 這篇其實是先前觀念不清楚而導致認知錯誤，筆記一下。
 
 <!-- more -->
