@@ -1,4 +1,4 @@
-title: 選擇指定 Homestead 版本安裝
+title: "選擇指定 Homestead 版本安裝"
 date: 2015-11-19 20:22:22
 tags: [Laravel,Homestead]
 categories: Laravel
@@ -9,7 +9,7 @@ categories: Laravel
 
 <!-- more -->
 
-你可以在 [atlas homestead](https://atlas.hashicorp.com/laravel/boxes/homestead)當中找到你所需要的 homestead image，舉例來說，開始支持 MySQL 5.7 及 Node 5.0 的 homestead 版本是`v0.3.1`，如果你需要的是 MySQL 5.6 以及 舊版 Node 可以選擇以下的版本，例如 `v0.2.5`。
+你可以在 [atlas homestead](https://atlas.hashicorp.com/laravel/boxes/homestead) 當中找到你所需要的 homestead image，舉例來說，開始支持 MySQL 5.7 及 Node 5.0 的 homestead 版本是`v0.3.1`，如果你需要的是 MySQL 5.6 以及 舊版 Node 可以選擇以下的版本，例如 `v0.2.5`。
 
 接下來如果你已經升級成新版本（例如：`v0.3.3`），必須先移除原有的box：
 ``` bash
