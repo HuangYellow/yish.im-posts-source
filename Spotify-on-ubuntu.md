@@ -1,4 +1,4 @@
-title: "Spotify on Ubuntu Settings"
+title: "Spotify Settings on Ubuntu"
 date: 2015-11-23 11:10:25
 tags: [ubuntu]
 categories: Ubuntu
@@ -6,6 +6,8 @@ categories: Ubuntu
 ![spotify](http://i.imgur.com/7btlJ0p.png)
 
 因為長期開發都是用 Ubuntu，最近終於開始付費使用 Spotify 了，由於他可以選擇高音質，但網頁版似乎不行，所以就研究了一下如何在 Ubuntu 下安裝 Spotify。
+
+<!-- more -->
 
 首先你可以參考[官方](https://www.spotify.com/tw/download/linux/)的步驟，這邊我的步驟是跟他一樣的。
 
