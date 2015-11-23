@@ -1,5 +1,5 @@
 title: "Spotify on Ubuntu Settings"
-date: 2015-07-24 19:50:25
+date: 2015-11-23 11:10:25
 tags: [ubuntu]
 categories: Ubuntu
 ---
