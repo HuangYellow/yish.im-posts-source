@@ -3,7 +3,6 @@ date: 2015-09-12 22:51:14
 tags: [books,reviews]
 categories: Review
 ---
-![image](http://40.media.tumblr.com/f6b1fadf56b40e127cccb4725bdb60d6/tumblr_inline_nuka5qDHpJ1s611yb_540.jpg)
 
 最近剛讀完這本像是字典般後的書，在購買此書之前我並沒有看過《賈伯斯傳》這本書，原因其實並無其他，就是覺得裡面寫的內容根本就是把賈伯斯塑造成一個暴君，但我覺得這樣並不是真正的賈伯斯，如果他像是書中寫得那樣子，那麼怎麼創造出蘋果這麼偉大的公司?
 

@@ -3,7 +3,6 @@ date: 2015-09-12 22:53:31
 tags: [books,reviews]
 categories: Review
 ---
-![](http://40.media.tumblr.com/bad95abbf51d697846dfb25f98ea862e/tumblr_inline_nukb6wbImK1s611yb_540.jpg)
 
 剛好在這個年紀，看完之後果然心有戚戚焉，其實在這之前我一直以為松浦彌太郎是一位小說家，但拜讀他這本之後對於他所要傳達的一些訊息其實還蠻同意幾個觀點的。
 

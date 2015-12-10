@@ -3,7 +3,6 @@ date: 2015-08-23 23:53:16
 tags: [movie,reviews]
 categories: Review
 ---
-![](http://36.media.tumblr.com/a4e558f3a7cfb995ea73d7e7d1e439d7/tumblr_inline_ntjlfi2ntr1s611yb_540.png)
 
 前陣子看了《壽司之神》，對於日本職人對於自己職業的那份執著和態度更加的敬佩了，我想如果每個人都對自己的職業有所熱情，那麼會將自己帶向另一個層次也不一定。
 
