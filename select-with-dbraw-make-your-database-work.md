@@ -37,7 +37,7 @@ $users = DB::table('users')
 );
 ```
 
-接著你可以看到，`DB::raw()` （對了，別忘記 `user Illuminate\Support\Facades\DB`）允許你在裡面寫上基本的 SQL 判斷陳述。
+接著你可以看到，`DB::raw()` （對了，別忘記 `use Illuminate\Support\Facades\DB`）允許你在裡面寫上基本的 SQL 判斷陳述。
 
 另一個常用的用法是 `group` 陳述。在有時候，你需要使用 MySQL 的方法，例如 `COUNT()`，你可以使用 `DB::raw()`。這邊有個簡單的範例，你也可以參考[官方查詢生成器文件](http://laravel.com/docs/5.1/queries#selects)
 
