@@ -1,5 +1,5 @@
-title: "Laravel 5.2 — 前瞻"
-date: 2015-11-15 02:08:20
+title: "[updated] Laravel 5.2 — 前瞻"
+date: 2015-12-12 17:41:20
 tags: news
 categories: Laravel-News
 ---
@@ -78,6 +78,14 @@ categories: Laravel-News
 ## MySQL JSON 欄位支援（MySQL JSON Column Types）
 <blockquote class="twitter-tweet" lang="zh-tw"><p lang="en" dir="ltr">Upcoming Laravel 5.2 release also supports creating new MySQL JSON column types!</p>&mdash; Laravel (@laravelphp) <a href="https://twitter.com/laravelphp/status/665182225206542336">2015 11月 13日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 MySQL 5.7.8 加入了支援原生的 JSON 資料類別。Laravel 5.2現在也加入了支援這個欄位類別了。
+
+
+
+
+## 中介層群組（Middleware Groups）
+<blockquote class="twitter-tweet" lang="zh-tw"><p lang="en" dir="ltr">Laravel 5.2: middleware groups allow you to apply group of middlware to routes, <a href="https://t.co/qpEELi2SUn">https://t.co/qpEELi2SUn</a> <a href="https://t.co/h3tIDe9yIb">https://t.co/h3tIDe9yIb</a></p>&mdash; Taylor Otwell (@taylorotwell) <a href="https://twitter.com/taylorotwell/status/674638399177822212">2015 12月 9日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 持續更新...
