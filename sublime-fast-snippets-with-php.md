@@ -10,6 +10,8 @@ Sublime snippets 是 Sublime 相當實用的自定義快捷鍵方法，這個 re
 
 ## 安裝
 
+[Github Repo 網址](https://github.com/Mombuyish/sublime-fast-snippets-with-php)
+
 這個 repo 必須安裝在你的 sublime 路徑下:
 
 ubuntu:
