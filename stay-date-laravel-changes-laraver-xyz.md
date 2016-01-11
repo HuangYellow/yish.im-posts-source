@@ -1,7 +1,7 @@
 title: "查看 Laravel 版本更新項目"
 date: 2015-12-17 14:41:32
-tags: news
-categories: Laravel-News
+tags: laravel-news
+categories: Translate
 ---
 ![laravel](https://d1zj60nuin5mrx.cloudfront.net/media/2015/12/01210557/laraver.png)
 

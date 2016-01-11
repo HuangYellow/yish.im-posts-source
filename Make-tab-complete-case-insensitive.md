@@ -1,7 +1,7 @@
 title: "讓 Homestead 的 Tab Complete 不識別大小寫"
 date: 2015-11-20 03:14:05
-tags: news
-categories: Laravel-News
+tags: laravel-news
+categories: Translate
 ---
 
 根據 [Laravel-News](https://laravel-news.com/2015/11/make-homestead-tab-complete-case-insensitive/) 文章提到 [Matt Stenson](https://twitter.com/mpstenson/) 近期在 twitter 分享一個實用的小技巧，那就是如何在 homestead 下面輸入指令時不會辨識大小寫。

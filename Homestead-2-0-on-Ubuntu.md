@@ -1,119 +1,89 @@
-title: "Homestead 2.0 on Ubuntu"
-date: 2015-03-22 17:03:18
+title: "Homestead on Ubuntu"
+date: 2016-01-02 20:40:18
 tags: [laravel,ubuntu,homestead]
 categories: Laravel
 ---
 
-新版本的homestead在安裝上與之前差異其實沒有很大，但是我還是不爭氣的卡關，後來終於解決了，原則上比較會出現問題的地方是ubuntu官方提供的vagrant是舊版的，必須自己去官方下載安裝才能執行，然後在add box這段冗長的加入過程中有可能會因為網路不穩出現檔案損毀的問題，以及最後如果你是virtualbox內安裝ubuntu，然後ubuntu裡面又安裝homestead很抱歉的你會卡在rsa_key過不去，因為你沒有虛擬化技術VT-x/AMD-V。
+*Update !* new version. 20160102.
 
 <!-- more -->
 
-[問題說明網址](http://stackoverflow.com/questions/22575261/vagrant-stuck-connection-timeout-retrying
-Required)
-
 ## 前置
-`安裝virtualbox`
+### 安裝virtualbox
 ``` bash
-sudo apt-get install virtualbox
+    $ sudo apt-get install virtualbox
 ```
 
-`安裝vagrant`
+### 安裝vagrant
 ``` bash
-sudo apt-get install vagrant
+    $ sudo apt-get install vagrant
 ```
 
 *注意：目前用指令下載的vagrant版本是舊版的，當安裝時會出現錯誤，建議從官方網站進行下載安裝。
 [官方網站](https://www.vagrantup.com/)
 
-`升級`
+### 升級
 ``` bash
-sudo apt-get update
+    $ sudo apt-get update
 ```
 
-[官方參考](http://laravel.tw/docs/4.2/homestead)
+[官方參考](https://laravel.com/docs/5.2/homestead)
 
+## 安裝配置
+
+### 下載最新 laravel/homestead box
 ``` bash
-virtualbox add vagrant
-vagrant box add laravel/homestead
+    $ vagrant box add laravel/homestead
 ```
 
+如果想要指定 box 版本，可以參考 [選擇指定 Homestead 版本安裝](http://yish.im/2015/11/19/Homestead-version/)
 
-`安裝composer`
+或者是下載失敗，可以透過直接連接的方式進行下載
 ``` bash
-cd /home/username
-sudo curl -sS https://getcomposer.org/installer | php
+    $ vagrant box add laravel/homestead https://atlas.hashicorp.com/laravel/boxes/homestead
 ```
 
-`*注意：如果出現缺少，可以輸入`
+>註: 如果你下載失敗後會無法安裝是因為有 temp 卡住，可以參考 這篇 或者是自行到 .vagrant.d/tmp 底下把失敗的 temp 移除重新下載即可。
+
+### clone Homestead
 ``` bash
-sudo apt-get install curl
-sudo apt-get install php5-cli
+    $ cd ~
+    $ git clone https://github.com/laravel/homestead.git Homestead
 ```
 
-`移動composer`
-將composer.phar移動到`usr/local/bin`，讓他變成全域指令
+### 初始化
 ``` bash
-sudo mv composer.phar /usr/local/bin/composer
+    $ bash init.sh
 ```
 
-
-## 安裝
+### 設定 SSH-KEY
 ``` bash
-composer global require "laravel/homestead=~2.0"
-```
-跑完後會在`home/username` 發現`.composer`這個資料夾
-
-接下來把路徑寫入
-``` bash
-sudo nano .bashrc
-export PATH=~/.composer/vendor/bin:$PATH
+    $ ssh-keygen -t rsa -C "you@homestead"
 ```
 
-### 非常重要：重新啟動terminal
-
-`初始化`
+### 建立對應資料夾
+在家目錄(home)下建立 Code 資料夾
+使用 `homestead edit` 指令編輯對應
 ``` bash
-homestead init
-```
-
-`產生key`
-``` bash
-ssh-keygen -t rsa -C "your@email.com"
-```
-然後依據需求在填問題（但建議直接enter過去就可以了）
-
-*注意：原先`Homestead`是直接放在`home`底下，現在則是`.homestead` 所以`Homestead.yaml`也放在裡面了
-
-
-## 建立mapping folder:Code資料夾
 folders:
-``` bash
- -map:~/Code
- to /home/vagrant/Code
-```
-在home底下建立`Code` folder
-
-``` bash
-mkdir Code
-sudo chmod -R 777 Code/
+    - map: ~/Code //外層
+      to: /home/vagrant/Code //vb裡面路徑
 ```
 
-`編輯hosts`
-``` bash
-cd /etc
-sudo nano hosts
-```
-`加入域名`
-``` bash
-192.168.10.10 homestead.app
-```
+### 綁定域名
 
-`啟動homestead`
+到 `/etc/hosts`
 ``` bash
-homestead up
+    192.168.10.10  homestead.app
 ```
 ## 補充
-`如有出現env home的問題`
+
+### 關於如果你是需要在 virtual box 內又要安裝 homestead 說明 :
+
+[問題說明網址](http://stackoverflow.com/questions/22575261/vagrant-stuck-connection-timeout-retrying
+Required)
+
+### 如有出現env home的問題
 ``` bash
 cd etc/php5/cli/
 sudo nano php.ini

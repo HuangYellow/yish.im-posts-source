@@ -1,7 +1,7 @@
 title: "Select 使用 DB::raw() - 讓你的資料運作得更好"
 date: 2015-12-12 18:29:04
-tags: laravel
-categories: Laravel-Daily
+tags: laravel-daily
+categories: Translate
 ---
 
 當從資料庫撈取資料時，有時候你會想利用額外的過濾來選取你所需要的資料 － 並且撈取後還希望用 SQL 的一些條件狀態來過濾。

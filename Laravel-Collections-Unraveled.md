@@ -1,7 +1,7 @@
 title: Laravel Collections Unraveled
 date: 2015-11-18 10:53:22
-tags: news
-categories: Laravel-News
+tags: laravel-news
+categories: Translate
 ---
 
 根據 [Laravel-News](https://laravel-news.com/2015/11/laravel-collections-unraveled/) 的消息， Jeff Madsen 發佈了一份免費的電子書 [Laravel Collections Unraveled](https://leanpub.com/laravelcollectionsunraveled/)，用於探討 Laravel Collections：

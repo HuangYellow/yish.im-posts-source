@@ -1,7 +1,7 @@
 title: "開放原始碼的音樂串流網站 Koel"
 date: 2015-12-17 14:46:54
-tags: news
-categories: Laravel-News
+tags: laravel-news
+categories: Translate
 ---
 ![](https://d1zj60nuin5mrx.cloudfront.net/media/2015/12/14104909/koel.png)
 

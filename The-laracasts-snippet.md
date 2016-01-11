@@ -1,7 +1,7 @@
 title: "The laracasts snippet"
 date: 2015-11-18 10:19:34
-tags: [laracasts,twitter]
-categories: Laracasts
+tags: laracasts
+categories: Translate
 ---
 
 ![snippet](http://i.imgur.com/kkR4sYQ.png)

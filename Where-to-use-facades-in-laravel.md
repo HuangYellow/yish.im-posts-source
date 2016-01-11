@@ -1,7 +1,7 @@
 title: "在 Laravel 的哪裡使用 Facades？"
 date: 2015-12-10 12:14:11
 tags: [facade,laravel]
-categories: Learning-Laravel
+categories: Translate
 ---
 Laravel 的 facade 美化非常強大，但它也可以是痛苦的，學著如何去使用它，或者不使用它而是使用依賴注入不僅可以幫助你的程式碼更容易理解，也可以用於之後的作業中。
 
