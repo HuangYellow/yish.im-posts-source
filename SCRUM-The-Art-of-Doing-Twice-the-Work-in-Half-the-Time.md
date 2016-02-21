@@ -2,9 +2,18 @@ title: "SCRUM：用一半的時間做兩倍的事"
 date: 2016-02-21 22:50:12
 tags: [scrum,book-review]
 categories: books
+keywords:
+- scrum
+- books
+clearReading: true
+thumbnailImage: http://i.imgur.com/fCG0A7Cl.jpg
+thumbnailImagePosition: left
+autoThumbnailImage: yes
+metaAlignment: center
+coverImage: http://i.imgur.com/fCG0A7Cl.jpg
+coverMeta: in
+coverSize: partial
 ---
-
-![SCRUM](http://i.imgur.com/fCG0A7Cl.jpg)
 
 趁著過年的時候把先前買的這本重新閱讀了一次，並且作了一下筆記。
 SCRUM 是一種做事情的流程與方法，著重於「持續交付」與「持續改善」重新讀過後又有一層新的體會，覺得很不錯，推薦各位閱讀，這邊是我自己做的一些讀書筆記:
