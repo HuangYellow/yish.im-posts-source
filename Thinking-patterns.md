@@ -1,4 +1,4 @@
-title: Thinking patterns
+title: "創新是一種態度：翟本喬透視問題、勇於突破的思考模式和勝出策略"
 date: 2016-02-23 02:47:09
 tags: [thinking,book-review]
 categories: books
