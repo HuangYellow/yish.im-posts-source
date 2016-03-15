@@ -30,7 +30,7 @@ coverImage: cover.png
     public function rules()
     {
         return [
-            'subject' => 'required|unique:articles|max:100',
+            'title' => 'required|unique:articles|max:100',
         ];
     }
 
