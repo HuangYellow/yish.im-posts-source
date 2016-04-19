@@ -61,5 +61,3 @@ class Lottery extends Model
 `支持參數 -m 可以順帶連 migration 都建立出來。`
 
 參考底層 `Illuminate\Database\Eloquent\Model` 可以看到更多好用的 properties。(ex: $perPage = 15 etc...)。
-
-下一篇會說明 Providers。
