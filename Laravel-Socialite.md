@@ -3,8 +3,6 @@ date: 2016-05-23 14:20:05
 tags: [laravel]
 categories: Laravel
 ---
-Laravel Socialite
-===
 由 Taylor 開發的 OAuth 套件，支援 Facebook, Twitter, Google, LinkedIn, GitHub and Bitbucket。
 
 <!--more-->
