@@ -82,6 +82,13 @@ $ brew services start mariadb
 ```
 
 #### 安裝 valet
+
+建立全域 valet 指令：
+``` bash
+$ composer global require laravel/valet
+```
+
+安裝：
 ``` bash
 $ valet install
 ```
@@ -117,6 +124,10 @@ $ laravel new blog
 或者可以輸入指令:
 ``` bash
 $ composer global require "laravel/installer"
+```
+### 拜訪建立的專案
+```
+    http://blog.dev
 ```
 
 That's it.
